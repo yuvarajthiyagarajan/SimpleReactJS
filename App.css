@@ -1,0 +1,134 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body {
+  background: #86109B;
+  font-size: 20px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-title {
+  font-size: 20pt;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container {
+  width:350px;
+  height: auto;
+  margin: auto;
+  text-align: left;
+  height: 650px;
+  overflow-y: auto;
+  color:white;
+  border:10 solid #01a3a4;
+  border-radius: 10px;
+  font-size: 10pt;
+  overflow: auto;
+}
+
+.container .input-text{
+  background-color: white;
+  font-size: 10px;
+  height: 20px;
+  margin: 5px;
+  border:10 solid #01a3a4;
+  border-radius: 10px;
+}
+
+.container .add-btn{
+  background-color: slateblue;
+  font-size: 8px;
+  border: 20 solid #01a3a4;
+  height: 20px;
+  margin-top: 3px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container .list{
+  background-color: white;
+  height: auto;
+  border: 20 solid;
+  text-align: left;
+  resize: both;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.container .btn{
+  background-color: red;
+  font-size: 8px;
+  border: 10 solid #01a3a4;
+  height: auto;
+  margin-top: 3px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  float: right;
+}
+
+.container .list ul li{
+  color: black;
+  list-style:square;
+  text-align: justify;
+  transition: opacity 0.5s ease-in-out;
+  font-style: initial;
+  height: auto;
+  padding-bottom: 0%;
+  font-size: 15px;
+  border-radius: auto;
+}
+
+.container .list ul{
+  margin-top:5px;
+  padding-left: 0;
+  text-align: justify;
+}
+
+
